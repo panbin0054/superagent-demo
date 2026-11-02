@@ -3,6 +3,8 @@
 
 def add(a: int, b: int) -> int:
     """Return the sum of two integers."""
+    if b < 0:
+        return a - b
     return a + b
 
 
